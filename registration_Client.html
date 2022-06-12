@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do usuário ou cliente</title>
+
+    <link rel="stylesheet" href="_css/style.css">
+</head>
+
+<body>
+
+    <div>
+        <h2>Fazer Cadastro</h2>
+    </div>
+    <br>
+    <br>
+    <br>
+    <form  class="form-validation"   method="get" action="">
+        Nome:
+        <input id="name" type="text" maxlength="80" required>
+        <br><br>
+        CPF OU CNPJ:
+        <input id="cpf" type="text" maxlength="14" placeholder="000.000.000-00" required><br>
+        <br>
+        Telefone:
+        <input type="text" id="telefone" maxlength="13"><br><br>
+
+        Celular:
+        <input type="text" id="celular" maxlength="13" placeholder="(xx) xxxxxxxxx"><br><br>
+        Cep:
+        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisacep(this.value);"
+            placeholder="xxxxx-xxx" required><br><br>
+        Rua:
+        <input name="rua" type="text" id="rua" size="60" required><br><br>
+        Bairro:
+        <input name="bairro" type="text" id="bairro" size="40" required><br><br>
+        Cidade:
+        <input name="cidade" type="text" id="cidade" size="40" required><br><br>
+        Estado:
+        <input name="uf" type="text" id="uf" size="2" required><br><br>
+        IBGE:
+        <input name="ibge" type="text" id="ibge" size="8" required><br><br>
+
+        <button onclick="validarForm()">CADASTRAR</button>
+    </form>
+
+
+
+    <script src="_javascript/validation.js"></script>
+</body>
+
+</html>

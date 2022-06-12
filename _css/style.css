@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+background-color: #dad6d6;
+
+
+}
+
+
+div{
+    background-color: darkcyan;
+    height: 90px;
+}
+
+h2{
+    color: white;
+    padding-top: 2%;
+    padding-left: 20px;
+}
+
+button{
+    background-color: darkcyan;
+    color: white;
+   border: 0px;
+   cursor: pointer;
+   padding: 8px 15px;
+  border-radius: 5px;
+}
+
+
+button:hover{
+background-color: rgb(8, 119, 119);
+transition: 0.4s;
+
+}
+
+.form-validation{
+
+margin: 0 55px;
+
+
+}
+ 
